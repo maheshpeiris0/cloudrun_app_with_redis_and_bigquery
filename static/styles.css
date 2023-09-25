@@ -1,0 +1,141 @@
+/* styles.css */
+.blue-bar {
+    background-color: #007bff;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #007bff;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* New styles for larger buttons */
+.large-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 75px 100px; /* Increase the padding to increase button size */
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.button-link {
+    margin: 0 15px; /* Add margin to the button links */
+}
+
+/* ... Your existing styles ... */
+
+/* Table Styling */
+#data-table {
+    width: 100%; /* Use the full width of the container */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin-top: 20px; /* Add some margin at the top */
+}
+
+#data-table th, #data-table td {
+    border: 1px solid #007bff; /* Blue border color for consistency */
+    padding: 8px 12px; /* Padding inside each cell */
+    text-align: left; /* Align text to the left */
+}
+
+#data-table th {
+    background-color: #007bff; /* Blue header background for consistency */
+    color: #fff; /* White text color for the header */
+}
+
+/* Form Styling */
+#data-form {
+    max-width: 500px; /* Limit the form width */
+    margin: 30px auto; /* Center the form and give it some top/bottom space */
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Slight shadow for a lifted effect */
+}
+
+#data-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+#data-form input[type="text"],
+#data-form input[type="number"] {
+    width: 100%; /* Make input fields take full width of the form */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Text size inside input fields */
+    margin-bottom: 20px; /* Space below each input field */
+}
+
+#data-form button[type="submit"] {
+    display: block; /* Make the submit button block element */
+    width: 100%; /* Make it take full width of the form */
+    margin-top: 10px; /* Space at the top */
+}
+
+
+/* Styles for Back Link */
+.back-link {
+    display: inline-block; /* Make the link block-like for padding */
+    background-color: #007bff; /* Match the blue theme */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.back-link:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+
+/* Table Styling */
+#data-table, #main-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+#data-table th, #data-table td, #main-table th, #main-table td {
+    border: 1px solid #007bff;
+    padding: 8px 12px;
+    text-align: left; 
+}
+
+#data-table th, #main-table th {
+    background-color: #007bff;
+    color: #fff; 
+}

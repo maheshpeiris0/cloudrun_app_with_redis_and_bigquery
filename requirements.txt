@@ -1,0 +1,7 @@
+Flask==2.3.2
+google-oauth2-tool==0.0.3
+google-cloud-bigquery==3.11.4
+google-cloud==0.34.0
+redis==5.0.0
+uuid==1.30
+google-cloud-secret-manager==2.16.3 
